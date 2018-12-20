@@ -86,7 +86,7 @@
       "properties": {
         "securityRules": [
           {
-            "name": "databricks-worker-to-worker",
+            "name": "databricks-worker-to-worker-inbound",
             "properties": {
               "access": "Allow",
               "description": "Required for worker nodes communication within a cluster.",
@@ -156,7 +156,7 @@
             }
           },
           {
-            "name": "databricks-worker-to-webapp",
+            "name": "databricks-worker-to-storage",
             "properties": {
               "access": "Allow",
               "description": "Required for workers communication with Azure Storage services.",
@@ -170,7 +170,7 @@
             }
           },
           {
-            "name": "databricks-worker-to-webapp",
+            "name": "databricks-worker-to-worker-outbound",
             "properties": {
               "access": "Allow",
               "description": "Required for worker nodes communication within a cluster.",
@@ -179,7 +179,7 @@
               "direction": "Outbound",
               "priority": 150,
               "protocol": "*",
-              "sourceAddressPrefix": "",
+              "sourceAddressPrefix": "*",
               "sourcePortRange": "*"
             }
           }
