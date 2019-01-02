@@ -294,6 +294,7 @@
       "westus": "40.83.178.242/32",
       "westus2": "40.83.178.242/32"
     },
+    "controlPlaneIp": "[variables('azureRegionToControlPlaneIp')[parameters('location')]]",
     "azureRegionToWebappIp": {
       "australiacentral": "13.75.218.172/32",
       "australiacentral2": "13.75.218.172/32",
