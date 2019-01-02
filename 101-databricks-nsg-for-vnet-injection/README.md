@@ -1,4 +1,4 @@
-# Deploy an Network Security Group for Azure Databricks VNet Injection
+# Deploy a Network Security Group for Azure Databricks VNet Injection
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F101-databricks-nsg-for-vnet-injection.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
@@ -7,5 +7,5 @@
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
 
-This template allows you to create an Network Security Group for Azure Databricks VNet injection.
+This template allows you to create a Network Security Group for Azure Databricks VNet injection.
 For more information, see the <a href="https://docs.microsoft.com/en-us/azure/azure-databricks/">Azure Databricks Documentation</a>.
