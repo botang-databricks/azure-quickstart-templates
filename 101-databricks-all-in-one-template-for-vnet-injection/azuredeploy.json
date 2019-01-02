@@ -182,6 +182,20 @@
               "sourceAddressPrefix": "*",
               "sourcePortRange": "*"
             }
+          },
+          {
+            "name": "databricks-worker-to-any",
+            "properties": {
+              "access": "Allow",
+              "description": "Required for worker nodes communication with any destination.",
+              "destinationAddressPrefix": "*",
+              "destinationPortRange": "*",
+              "direction": "Outbound",
+              "priority": 140,
+              "protocol": "*",
+              "sourceAddressPrefix": "*",
+              "sourcePortRange": "*"
+            }
           }
         ]
       }
@@ -264,6 +278,7 @@
       "eastasia": "52.187.0.85/32",
       "eastus": "23.101.152.95/32",
       "eastus2": "23.101.152.95/32",
+      "eastus2euap": "23.101.152.95/32",
       "japaneast": "13.78.19.235/32",
       "japanwest": "13.78.19.235/32",
       "northcentralus": "23.101.152.95/32",
@@ -273,12 +288,12 @@
       "southindia": "104.211.101.14/32",
       "uksouth": "51.140.203.27/32",
       "ukwest": "51.140.203.27/32",
+      "westcentralus": "40.83.178.242/32",
       "westeurope": "23.100.0.135/32",
       "westindia": "104.211.101.14/32",
       "westus": "40.83.178.242/32",
       "westus2": "40.83.178.242/32"
     },
-    "controlPlaneIp": "[variables('azureRegionToControlPlaneIp')[parameters('location')]]",
     "azureRegionToWebappIp": {
       "australiacentral": "13.75.218.172/32",
       "australiacentral2": "13.75.218.172/32",
@@ -291,6 +306,7 @@
       "eastasia": "52.187.145.107/32",
       "eastus": "40.70.58.221/32",
       "eastus2": "40.70.58.221/32",
+      "eastus2euap": "40.70.58.221/32",
       "japaneast": "52.246.160.72/32",
       "japanwest": "52.246.160.72/32",
       "northcentralus": "40.70.58.221/32",
