@@ -135,7 +135,7 @@
               "destinationAddressPrefix": "[variables('webappIp')]",
               "destinationPortRange": "*",
               "direction": "Outbound",
-              "priority": 120,
+              "priority": 100,
               "protocol": "*",
               "sourceAddressPrefix": "*",
               "sourcePortRange": "*"
@@ -149,7 +149,7 @@
               "destinationAddressPrefix": "Sql",
               "destinationPortRange": "*",
               "direction": "Outbound",
-              "priority": 130,
+              "priority": 110,
               "protocol": "*",
               "sourceAddressPrefix": "*",
               "sourcePortRange": "*"
@@ -163,7 +163,7 @@
               "destinationAddressPrefix": "Storage",
               "destinationPortRange": "*",
               "direction": "Outbound",
-              "priority": 140,
+              "priority": 120,
               "protocol": "*",
               "sourceAddressPrefix": "*",
               "sourcePortRange": "*"
@@ -177,7 +177,7 @@
               "destinationAddressPrefix": "VirtualNetwork",
               "destinationPortRange": "*",
               "direction": "Outbound",
-              "priority": 150,
+              "priority": 130,
               "protocol": "*",
               "sourceAddressPrefix": "*",
               "sourcePortRange": "*"
@@ -291,7 +291,6 @@
       "eastasia": "52.187.145.107/32",
       "eastus": "40.70.58.221/32",
       "eastus2": "40.70.58.221/32",
-      "eastus2euap": "40.70.58.221/32",
       "japaneast": "52.246.160.72/32",
       "japanwest": "52.246.160.72/32",
       "northcentralus": "40.70.58.221/32",
