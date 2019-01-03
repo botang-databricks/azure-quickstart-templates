@@ -22,7 +22,6 @@
     },
     "customVirtualNetworkId": {
       "type": "string",
-      "defaultValue": "",
       "metadata": {
         "description": "The complete ARM resource Id of the custom virtual network."
       }

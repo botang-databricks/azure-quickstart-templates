@@ -3,7 +3,6 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "nsgId": {
-      "defaultValue": "",
       "type": "string",
       "metadata": {
         "description": "The complete ARM Resource Id for the existing network security group."
